@@ -1,0 +1,233 @@
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+.navbar {
+	width: 1200px;
+	margin-left: 50px;
+	padding-left: 15px;
+	padding-right: 30px;
+	background-color: #ffffff;
+	background-blend-mode: multiply;
+	
+}
+
+
+.container {
+	position: relative;
+	display: inline-block;
+	float: inherit;
+	width: 90%;
+	height: 80%;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding: 10px;
+	background-color: white;
+}
+
+body {
+	position: relative;
+	width: 1200px;
+	height: 800px;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	mix-blend-mode: multiply;
+	margin-top: 5px;
+	margin-left: 30px;
+	margin-right: 30px; 
+	margin-bottom: 5px;
+	padding: 5px;
+
+}
+
+#FB {
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 60px;
+	margin-right: 30px; 
+	margin-bottom: 5px;
+	padding: 5px;
+
+}
+
+#IG {
+	position: relative;
+	float: left;
+	mix-blend-mode: exclusion;
+	margin-top: 5px;
+	margin-left: 40px;
+	margin-right: 30px; 
+	margin-bottom: 5px;
+	padding: 5px;
+
+}
+
+#Snap {
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 30px; 
+	margin-bottom: 5px;
+	padding: 5px;
+
+}
+
+#SC {
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 30px; 
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+#MIX {
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 30px; 
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+#YOU {
+	position: relative;
+	float: left;
+	mix-blend-mode: multiply;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 30px; 
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+#twitter {
+	position: relative;
+	float: left;
+	mix-blend-mode: multiply;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 10px; 
+	margin-bottom: -5px;
+	padding: 2px;
+}
+
+.img-fluid {
+	border-radius: 10px;
+	background: #666;
+}
+
+
+.mid-page{
+
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 135px;
+	margin-right: 10px;
+	border-radius: 100px;
+	padding-right: 20px;
+	background: linear-gradient(to bottom right, red, yellow);
+}
+section {
+	position: relative;
+	float: left;
+	margin-top: 150px;
+	margin-left: 70px;
+	width: 400px;
+	height: 300px;
+	background: #666
+}
+
+aside {
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-top: 150px;
+	margin-left: 60px;
+	margin-right: 2px;
+	background: #666;
+}
+
+
+footer {
+	position: relative;
+	float: right;
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: -10px;
+	margin-bottom: 5px;
+	padding: 40px;
+	background: linear-gradient(to top right, red, yellow);
+	border-radius: 100px;
+}
+.radio-stations {
+	border-radius: 10px;
+	background: #000;
+	mix-blend-mode: multiply;
+}
+
+
+#frisco {
+	position: relative;
+	float:center;
+	margin: 30px;
+	margin-left: 100px;
+	margin-right: 50px;
+	padding: 20px;
+	display: inline;
+	vertical-align: top;
+	border-radius: 300px;
+	background: #000;
+	mix-blend-mode: screen;
+}
+
+#desert{
+	position: relative;
+	float:center;
+	margin: 30px;
+	margin-left: 100px;
+	margin-right: 50px;
+	padding: 20px;
+	display: inline;
+	vertical-align: top;
+	border-radius: 300px;
+	background: #000;
+	mix-blend-mode: screen;
+}
+
+#vegas {
+	position: relative;
+	float:center;
+	margin: 30px;
+	margin-left: 100px;
+	margin-right: 50px;
+	padding: 20px;
+	display: inline;
+	vertical-align: top;
+	border-radius: 300px;
+	background: #000;
+	mix-blend-mode: screen;
+
+}
+@media screen and (max-width: 768px) {
+	.navbar {
+		position: relative;
+		width: 768px;
+	}
+	body {
+
+
+	background-color: #000;
+}
+}
